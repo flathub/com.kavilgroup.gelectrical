@@ -1,14 +1,14 @@
 {
-    "app-id" : "com.kavilgroup.gelectrical",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
-    "sdk" : "org.gnome.Sdk",
-    "command" : "gelectrical_launcher.py",
+    "app-id": "com.kavilgroup.gelectrical",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "43",
+    "sdk": "org.gnome.Sdk",
+    "command": "gelectrical_launcher.py",
     "finish-args": [
-           "--socket=wayland",
-           "--socket=fallback-x11",
-           "--share=ipc",
-           "--filesystem=host"
+        "--socket=wayland",
+        "--socket=fallback-x11",
+        "--share=ipc",
+        "--filesystem=host"
     ],
     "modules": [
         {
@@ -16,8 +16,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://download.osgeo.org/geos/geos-3.11.1.tar.bz2",
-                    "sha256": "6d0eb3cfa9f92d947731cc75f1750356b3bdfc07ea020553daf6af1c768e0be2",
+                    "url": "http://download.osgeo.org/geos/geos-3.11.2.tar.bz2",
+                    "sha256": "b1f077669481c5a3e62affc49e96eb06f281987a5d36fdab225217e5b825e4cc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 13493,
@@ -407,10 +407,10 @@
             ]
         },
         {
-            "name" : "gelectrical",
-            "buildsystem" : "simple",
-            "cleanup" : [],
-            "build-commands" : [
+            "name": "gelectrical",
+            "buildsystem": "simple",
+            "cleanup": [],
+            "build-commands": [
                 "install -D gelectrical_launcher.py /app/bin/gelectrical_launcher.py",
                 "install -D app/share/applications/com.kavilgroup.gelectrical.desktop /app/share/applications/com.kavilgroup.gelectrical.desktop",
                 "install -D app/share/metainfo/com.kavilgroup.gelectrical.appdata.xml /app/share/metainfo/com.kavilgroup.gelectrical.appdata.xml",
