@@ -421,8 +421,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/manuvarkey/GElectrical.git",
-                    "tag": "v1-RC.3.1",
-                    "commit": "213d34ae925ef2542677db4dbabc5a4300679301"
+                    "tag": "v1-RC.3.2",
+                    "commit": "979d727661e210129f5e3aa6ed8fa493de293500"
                 }
             ]
         }
