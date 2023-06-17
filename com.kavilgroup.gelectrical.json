@@ -1,7 +1,7 @@
 {
     "app-id": "com.kavilgroup.gelectrical",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "43",
+    "runtime-version": "44",
     "sdk": "org.gnome.Sdk",
     "command": "gelectrical_launcher.py",
     "finish-args": [
@@ -421,8 +421,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/manuvarkey/GElectrical.git",
-                    "tag": "v1-RC.4.4",
-                    "commit": "57e51e32d4c47f3928b4f5ff94d6fadd58222987"
+                    "tag": "v1-RC.5",
+                    "commit": "4eca9e70b223d2e068a171df71b6ae4cbb5bd742"
                 }
             ]
         }
